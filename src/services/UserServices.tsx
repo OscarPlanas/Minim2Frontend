@@ -123,3 +123,8 @@ export {}
 export const delSerie = async (idUser: string, idSerie: string) => {
     return await axios.put(`${API}/delserie/${idUser}/${idSerie}`);
 }
+
+export const getOneUser = async (username: string) => {
+    return await axios.get(`${API}/${username}`);
+}
+export {}

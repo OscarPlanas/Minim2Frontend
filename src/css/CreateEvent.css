@@ -65,3 +65,7 @@ label{
 .create-event-button:focus{
 	outline: 1px solid #9B9B9B;
 }
+
+.transparent-label{
+	color: transparent;
+}
